@@ -1,4 +1,4 @@
-# AirQuality
+# AirQuality+ Temperature + Humedity 
 Lab AirQuality sensor
 
 REQUIRES the following Arduino libraries:
