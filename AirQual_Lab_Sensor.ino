@@ -117,6 +117,12 @@ void loop()
   lcdI2C.print("Gas: ");
   lcdI2C.print((float)(correctedPPM),0);                   // Print print String to LCD on second line
   lcdI2C.print(" ppm");
+  if (correctedPPM > 5000)
+  lcdI2C.print(" :(");
+  else if (correctedPPM > 2000) // Else if puede ser problematico cuando anidan mas condiciones, usar solo if en caso de amentar
+  lcdI2C.print(" :/");
+  else
+  lcdI2C.print(" :)");
   delay(10000);
 
 }
