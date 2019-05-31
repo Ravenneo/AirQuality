@@ -12,3 +12,9 @@ For MQ135 Calibration:
 
 - For calibration check also: Trends in Atmospheric Carbon Dioxide> https://www.esrl.noaa.gov/gmd/ccgg/trends/gl_trend.html
 - You can look into my other repository as the MQ135 code is the same https://github.com/Ravenneo/CO2-sensor
+
+In my code, for Arduino UNO: 
+- DHT is wired to Digital Pin 8
+- IC2 and MQ135 wird as I did in CO2 proyect https://github.com/Ravenneo/CO2-sensor  Analogic In A2 for MQ135 and I2C CristalLiquid screen is conected to Analogic IN (A5-SCL and A4-SDA)
+
+You have to look for your Rzero for Gas measures.  Emoticons for gas are set as <2000 :) - >2000 :/ - >5000 :( 
